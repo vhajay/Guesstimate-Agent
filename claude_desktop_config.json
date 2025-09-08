@@ -9,7 +9,7 @@
         "guesstimatemcp"
       ],
       "env": {
-        "TAVILY_API_KEY": "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"
+        "TAVILY_API_KEY": "XXXXXXXXXXXXXXX"
       }
     }
   }
