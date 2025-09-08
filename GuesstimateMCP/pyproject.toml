@@ -1,0 +1,15 @@
+[project]
+name = "guesstimatemcp"
+version = "0.1.0"
+description = "Tools and resources for aiding AI agents in solving guesstimate problems."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [ "mcp>=1.13.1", "fastapi>=0.100.0", "uvicorn>=0.20.0", "httpx>=0.28.1",]
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+guesstimatemcp = "guesstimatemcp:main"
+guesstimatemcp-http = "guesstimatemcp.http_server:main"

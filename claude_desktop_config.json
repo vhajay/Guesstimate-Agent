@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "GuesstimateMCP": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\Projects\\Guesstimate Agent\\GuesstimateMCP",
+        "run",
+        "guesstimatemcp"
+      ],
+      "env": {
+        "TAVILY_API_KEY": "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"
+      }
+    }
+  }
+}

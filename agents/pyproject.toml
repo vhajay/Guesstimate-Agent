@@ -1,0 +1,19 @@
+[project]
+name = "guesstimate-agent"
+version = "0.1.0"
+description = "LangGraph agent for solving guesstimate problems using MCP"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.6.7",
+    "langchain>=0.3.27",
+    "langchain-openai>=0.2.0",
+    "mcp>=1.13.1",
+    "python-dotenv>=1.1.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+guesstimate-agent = "guesstimate_agent:main"
